@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Md Ebrahim Mahin | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<style>
+body {
+margin: 0;
+font-family: 'Inter', sans-serif;
+background-color: #0d1117;
+color: #c9d1d9;
+line-height: 1.6;
+transition: all 0.3s ease-in-out;
+}
+header {
+background-color: #161b22;
+padding: 2rem 1rem;
+text-align: center;
+animation: fadeIn 1.5s ease-in-out;
+}
+header img {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+border: 3px solid #30363d;
+margin-bottom: 1rem;
+}
+header h1 {
+margin: 0;
+font-size: 2.2rem;
+}
+header p {
+font-size: 1.1rem;
+color: #8b949e;
+}
+main {
+max-width: 800px;
+margin: 2rem auto;
+padding: 0 1rem;
+animation: slideUp 1s ease-out;
+}
+h2 {
+color: #58a6ff;
+border-bottom: 1px solid #30363d;
+padding-bottom: 0.5rem;
+}
+.project {
+background: #161b22;
+padding: 1rem;
+border-radius: 0.5rem;
+margin-top: 1rem;
+  transition: transform 0.3s;
+}
+.project:hover {
+transform: scale(1.02);
+}
+a {
+color: #58a6ff;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+.socials a {
+margin-right: 15px;
+font-size: 1.4rem;
+color: #c9d1d9;
+}
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 0.75rem;
+margin-bottom: 1rem;
+border: none;
+border-radius: 5px;
+background-color: #21262d;
+color: #c9d1d9;
+}
+.contact-form button {
+padding: 0.75rem 2rem;
+background-color: #238636;
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+.contact-form button:hover {
+background-color: #2ea043;
+}
+footer {
+text-align: center;
+padding: 1.5rem 1rem;
+background-color: #161b22;
+color: #8b949e;
+margin-top: 2rem;
+}
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+@keyframes slideUp {
+from {transform: translateY(20px); opacity: 0;}
+to {transform: translateY(0); opacity: 1;}
+}
+</style>
+</head>
+<body>
+<header>
+<img src="https://via.placeholder.com/120" alt="Your Photo">
+<h1>Md Ebrahim Mahin</h1>
+<p>Web Developer | Student | Programmer </p>
+<div class="socials">
+<a href="https://github.com/ebrahimmahin" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/md-ebrahim-mahin-270685349/" target="_blank">LinkedIn</a>
+<a href="https://www.facebook.com/mbebrahim.mahin" target="_blank">Facebook</a>
+</div>
+</header>
+<main>
+<section>
+<h2>About Me</h2>
+<p>
+I'm a passionate web developer, Student, and Programmer, always curious to learn and explore new technologies. This portfolio
+showcases my projects and growth.
+</p>
+</section>
+<section>
+<h2>Projects</h2>
+<div class="project">
+<h3>My Awesome App</h3>
+<p>A web app built with love and JavaScript.</p>
+<a href="https://github.com/ebrahimmahin/my-awesome-app" target="_blank">View on GitHub</a>
+</div>
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>This very website built using HTML & CSS, hosted on GitHub Pages.</p>
+<a href="https://github.com/ebrahimmahin/ebrahimmahin.github.io" target="_blank">View on GitHub</a>
+</div>
+</section>
+<section>
+<h2>Contact Me</h2>
+<form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="_replyto" placeholder="Your Email" required>
+<textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+</main>
+<footer>
+<p>© 2025 Md Ebrahim Mahin. Built with GitHub Pages.</p>
+</footer>
+</body>
+</html>
